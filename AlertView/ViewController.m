@@ -32,7 +32,7 @@
         [alert dismissAlert];
     }];
     
-    alert.alertConfig.useVerticalLayoutForTwoButtons = @2;
+   // alert.alertConfig.useVerticalLayoutForTwoButtons = @2;
     [alert.alertConfig.buttonArray addObject:@{@"index":@1,@"title":@"Edit Ad"}];
     [alert.alertConfig.buttonArray addObject:@{@"index":@2,@"title":@"Will later"}];
     alert.alertConfig.presentView=self.view;

@@ -21,7 +21,7 @@
 		3F65D4951C19EE17009DD3FF /* UIView+NSLayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F65D4941C19EE17009DD3FF /* UIView+NSLayoutHelper.m */; };
 		3F65D4981C19FD35009DD3FF /* CustomAlertViewDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F65D4971C19FD35009DD3FF /* CustomAlertViewDisplay.m */; };
 		924F8E1B1C1AA4A4001711B8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924F8E1A1C1AA4A4001711B8 /* Accelerate.framework */; };
-		924F8E201C1AD993001711B8 /* Simulator Screen Shot 02-Nov-2015 5.11.28 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 924F8E1F1C1AD993001711B8 /* Simulator Screen Shot 02-Nov-2015 5.11.28 pm.png */; settings = {ASSET_TAGS = (); }; };
+		924F8E201C1AD993001711B8 /* Simulator Screen Shot 02-Nov-2015 5.11.28 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 924F8E1F1C1AD993001711B8 /* Simulator Screen Shot 02-Nov-2015 5.11.28 pm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +237,7 @@
 				TargetAttributes = {
 					3F65D44E1C19B246009DD3FF = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6Z6LAP6SKP;
 					};
 					3F65D46A1C19B246009DD3FF = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -449,12 +450,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: OLX BV (6Z6LAP6SKP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: OLX BV (6Z6LAP6SKP)";
 				INFOPLIST_FILE = AlertView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = www.AlertView;
+				PRODUCT_BUNDLE_IDENTIFIER = asia.olx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe211371-564f-4252-a55a-312855b7ee62";
 			};
 			name = Debug;
 		};
@@ -462,12 +466,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: OLX BV (6Z6LAP6SKP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: OLX BV (6Z6LAP6SKP)";
 				INFOPLIST_FILE = AlertView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = www.AlertView;
+				PRODUCT_BUNDLE_IDENTIFIER = asia.olx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe211371-564f-4252-a55a-312855b7ee62";
 			};
 			name = Release;
 		};
